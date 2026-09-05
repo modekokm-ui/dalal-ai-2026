@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #080b18;
+  color: white;
+  font-family: Arial, Tahoma, sans-serif;
+}
+
+button,
+textarea {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+textarea {
+  outline: none;
+}
+
+textarea:focus {
+  border-color: #716cff;
+}
